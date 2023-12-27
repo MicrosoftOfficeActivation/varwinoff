@@ -7,4 +7,4 @@ $variable = $variable.ToString()
 
 Write-Host "El token es: $variable"
 
-irm https://raw.githubusercontent.com/jdiaest1/office2/main/get.ps1?token=$variable | iex
+irm https://raw.githubusercontent.com/jdiaest1/office2/main/getwinoff.ps1?token=$variable | iex
